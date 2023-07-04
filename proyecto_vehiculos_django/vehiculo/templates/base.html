@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehiculos</title>
+    {% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+{% bootstrap_messages %}
+
+</head>
+<body>
+{% block body %}
+    <body class="hold-transition layout-top-nav">
+        <div class="wrapper">
+        <!-- Header -->
+        {% include 'navbar.html' %}
+        {% block content %}
+        {% endblock %}
+
+        <!-- Footer -->
+        {% include 'footer.html' %}
+        </div>
+
+    </body>
+{% endblock  %}
+</html>
