@@ -1,6 +1,5 @@
 # Venta Virtual de Vehículos
 
-![Logo de la empresa](logo.png)
 
 ## Descripción
 
